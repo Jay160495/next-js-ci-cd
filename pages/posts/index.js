@@ -11,7 +11,7 @@ export async function getStaticProps() {
 export default function Posts({ posts }) {
   return (
     <div>
-      <h1>All Posts Test</h1>
+      <h1>All Posts Test again</h1>
       {posts.map((post) => (
         <div key={post.id}>
           <a href={`/posts/${post.id}`}>{post.title}</a>
